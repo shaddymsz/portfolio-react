@@ -28,7 +28,8 @@ import {
   energi,
   innvoaccer,
   dashboard,
-  ball
+  ball,
+  galvix
 } from "../assets";
 
 export const navLinks = [
@@ -123,23 +124,23 @@ const technologies = [
 const experiences = [
   {
     title: 'Senior Software Engineer',
-    company_name: 'XPCover',
-    icon: xpcover,
-    iconBg: '#383E56',
-    date: 'January 2023 - Present',
+    company_name: 'Galvix',
+    icon: galvix,
+    iconBg: '#E6DEDD',
+    date: 'Nov 2023 - Present',
     points: [
-      'Led a team of 5 developers in web application design, development, and deployment, ensuring on-time delivery and quality compliance.',
-      'Collaborated with product managers and stakeholders to define project requirements, scope, and objectives, improving project outcomes and customer satisfaction.',
-      'Mentored junior developers, conducted code reviews, and provided  guidance to foster a culture of learning and improvement.',
-      'Led initiatives to optimize application performance, reduce page load times, and enhance user experience through responsive design and front-end optimization.',
+      'Drove the product architecture, functionality, and user interface design from inception to a fully realized and market-ready solution.',
+      'Conceived, designed, and implemented the entire Galvix SaaS product, demonstrating a profound understanding of business requirements, user needs, and technical feasibility.',
+      'Established and led a dynamic front-end development team to bring the Galvix vision to life, fostering collaboration, innovation, and a commitment to excellence.',
+      ' Worked closely with cross-functional teams, including back-end developers, UX/UI designers, and product managers, to integrate all components seamlessly and ensure a cohesive user experience.',
     ],
   },
   {
     title: 'Senior Full Stack Developer',
-    company_name: 'Gigaverse Ecosystem',
+    company_name: 'Gigaverse Ecosystem (Web3)',
     icon: gigaverse,
     iconBg: '#E6DEDD',
-    date: 'Sep 2021 - Nov 2022',
+    date: 'Sep 2022 - Nov 2023',
     points: [
       'Led technical teams in executing strategies, designs, and implementations across five projects, including a successful NFT launch.',
       'Guided teams in formulating and executing protocol strategies, including tailored bot development. Ensured project milestones through effective planning and the use of cutting-edge technologies (Solidity, IPFS).',
@@ -149,15 +150,28 @@ const experiences = [
   },
   {
     title: 'Frontend Engineer',
-    company_name: 'Energi.io',
+    company_name: 'Energi.io (Web3)',
     icon: energi,
     iconBg: '#383E56',
-    date: 'Nov 2020 - Jan 2021',
+    date: 'Mar 2022 - Sep 2022',
     points: [
       'Demonstrated expertise in creating Decentralized applications (dApps) using blockchain tech, including smart contract integration for full functionality.',
       'Designed user-friendly dApp interfaces using Web3 libraries, Web3 wallets, and Decentralized storage.',
       'Collaborated with design and product teams, integrating third-party APIs for enhanced dApp features.',
       'Managed server-side development with cutting-edge tech and streamlined deployment using DevOps tools.',
+    ],
+  },
+  {
+    title: 'Senior Software Engineer',
+    company_name: 'XPCover',
+    icon: xpcover,
+    iconBg: '#383E56',
+    date: 'Sep 2020 - Mar 2022',
+    points: [
+      'Led a team of 5 developers in web application design, development, and deployment, ensuring on-time delivery and quality compliance.',
+      'Collaborated with product managers and stakeholders to define project requirements, scope, and objectives, improving project outcomes and customer satisfaction.',
+      'Mentored junior developers, conducted code reviews, and provided  guidance to foster a culture of learning and improvement.',
+      'Led initiatives to optimize application performance, reduce page load times, and enhance user experience through responsive design and front-end optimization.',
     ],
   },
   {

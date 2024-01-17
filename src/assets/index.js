@@ -36,6 +36,7 @@ import energi from './company/energi.png'
 import innvoaccer from './company/innovaccer.png'
 import ball from './company/ball.png'
 import dashboard from './company/dashboard.jpg'
+import galvix from './galvix.png'
 export {
   logo,
   logoWhite,
@@ -71,5 +72,6 @@ export {
   energi,
   innvoaccer,
   ball,
-  dashboard
+  dashboard,
+  galvix
 };
