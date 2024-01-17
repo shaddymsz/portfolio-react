@@ -24,7 +24,9 @@ const Navbar = () => {
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-
+const handleresume =()=>{
+  window.open('https://drive.google.com/file/d/1Ic1lPhfpPre8ZNx1wFcGh9EQVSLcCVQz/view?usp=sharing' , '_blank')
+}
   return (
     <nav
       className={`${
@@ -61,7 +63,9 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+           <button onClick={handleresume} className="text-[18px]">Resume</button>
         </ul>
+        
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img
@@ -92,6 +96,7 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
+           
           </div>
         </div>
       </div>

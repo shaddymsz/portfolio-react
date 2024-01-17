@@ -126,7 +126,7 @@ const experiences = [
     title: 'Senior Software Engineer',
     company_name: 'Galvix',
     icon: galvix,
-    iconBg: '#E6DEDD',
+    iconBg: '#fff',
     date: 'Nov 2023 - Present',
     points: [
       'Drove the product architecture, functionality, and user interface design from inception to a fully realized and market-ready solution.',
@@ -139,7 +139,7 @@ const experiences = [
     title: 'Senior Full Stack Developer',
     company_name: 'Gigaverse Ecosystem (Web3)',
     icon: gigaverse,
-    iconBg: '#E6DEDD',
+    iconBg: '#fff',
     date: 'Sep 2022 - Nov 2023',
     points: [
       'Led technical teams in executing strategies, designs, and implementations across five projects, including a successful NFT launch.',
@@ -178,7 +178,7 @@ const experiences = [
     title: 'Full stack Developer',
     company_name: 'Innovaccer Inc.',
     icon: innvoaccer,
-    iconBg: '#E6DEDD',
+    iconBg: '#fff',
     date: 'Jun 2019 - Sep 2019',
     points: [
       'Collaborated within an agile team, employing Angular to deliver comprehensive client solutions, leading to reduced bug reports and the introduction of user-friendly designs and features.',
